@@ -30,8 +30,7 @@
 
 区分三种反射：皮肤大面柔雾至缎光；眼周细闪是小而离散的亮点，泪光是局部清透湿润反射；唇面是连续水润高光。后期不能一刀切压掉眼唇高光，也不能用全图泛光、提清晰度或拉亮高光制造油汗感。颗粒和柔光均为可选，不默认为所谓胶片感覆盖全部作品。
 
-## 从 GitHub Skills 吸收的后期方法
-研究日期：2026-11-04。以下为阅读后的选择性改写，未安装或运行外部 Skill，不继承其批处理、上传、模型调用和强制流程。自进化仅文生图，所有处理术语在此模式下均是成片目标，不是已执行的 Photoshop 操作。
+## 后期方法
 
 ### 先诊断，再校正，再做风格
 先确认问题是曝光、白平衡、黑位、妆色还是反射，而不是直接叠胶片预设。亮部过强时要求肩缘与脸部亮部柔和过渡，不能一起压暗眼周细闪和唇部水光；暗部发灰时恢复背景与黑发的深浅，不把整脸对比拉硬。补暗部只恢复需要的信息，不将所有阴影提成灰雾。来源：[Adobe 人像精修](https://github.com/openai/plugins/blob/main/plugins/adobe/skills/adobe-retouch-portraits/SKILL.md)、[Photo Cull Retouch](https://github.com/dudachun/photo-cull-retouch/blob/main/SKILL.md)。
@@ -45,14 +44,11 @@
 ### 最后再处理细节与氛围
 眼线、睫毛和唇缘应可辨，但不把皮肤也同等锐化。微对比与锐度过强会加重毛孔、眼下阴影和假纹理；不要靠去雾把柔润妆面变硬。光晕只在明确强光边缘少量出现，不覆盖五官。颗粒、胶片和 LUT 均为可选风格，不默认叠加；LUT 不能完成局部油光控制、磨皮或锐化。来源：[Photo Cull Retouch](https://github.com/dudachun/photo-cull-retouch/blob/main/SKILL.md)、[Color Grade AI](https://github.com/isaacrowntree/color-grade-ai/blob/main/SKILL.md)。
 
-### 应用于本任务的文生图后期段
+### 文生图后期段
 ```text
 Final finish: clean neutral-cool color balance, luminous milky-ivory skin with intentional translucent rose makeup preserved. Keep the environment subdued and slightly cooler without cyan contamination on skin. Retain dimensional midtones and deep readable hair and background shadows, not raised gray blacks. Compress broad skin reflections gently on forehead, cheeks and shoulders, while preserving fine eye sparkles, localized moist tear-light and continuous watery lip highlights. Even skin color without erasing delicate irregular texture; keep lash roots and lip edges readable without sharpening pores. Restrict optical bloom to the brightest backlit hair tips, no glow veil across the face. No automatic film tint or grain.
 ```
 按具体图的目标删减；没有逆光就删除光晕句。不能用这段替代妆容的颜色、位置和边界设计。
-
-### 验证范围
-以上为来源阅读与提示词适配，尚未完成本项目实际生成验收。外部仓库的工具能力、自评分数、色彩科学宣传不作为本项目验证结果。以后只记录可见改善与用户反馈，不因增加术语就声称质量已提升。
 
 ## 逆光与后期配合
 用户提出常见逆光手法时，将逆光列为可选照明设计，并配套整图后期；不将光源方向误归为调色，也不只靠全图泛光伪造逆光。自进化仍只通过文字生成，不传图。
@@ -73,7 +69,6 @@ Final finish: clean neutral-cool color balance, luminous milky-ivory skin with i
 Soft backlight from behind the subject at camera-right catches fine hair strands and a narrow shoulder rim. Broad neutral-white frontal fill keeps the face dimensional and the cool milky-ivory complexion with translucent pink blush clearly readable. A restrained near-axis catchlight reveals tiny eye sparkles and moist tear-light accents without making the forehead and cheeks glossy. Keep watery lip highlights distinct from the soft-matte skin. Grade the entire image with gentle highlight rolloff, clear midtones and restrained shadow lift; preserve the luminous hair edge without a broad milky veil, clipped facial detail or flare across the eyes.
 ```
 
-验证状态：逆光规格尚未实际出图验收，不将文字规则记为稳定生成能力。
 
 ## 提示词片段
 只替换本轮选定项，避免与光线和妆面规格矛盾：
@@ -86,8 +81,3 @@ Final whole-image color grade: [WHITE BALANCE AND TINT]. Set [SUBJECT/BACKGROUND
 
 ## 验收
 先缩略图检查整图色彩、视觉重心与主体分离，再检查脸颈手肤色、眼影与唇色、亮暗部细节。整图调色需同时作用于场景并保住妆面：避免青灰脸、洋红皮肤、白衣偏色、黑发死黑、高光溢出、细闪消失与全脸油亮。单独调色任务有原图时对照结构与非目标改变；文生图不将两次新人物生成当作同一图片的严格调色前后对比。
-
-状态：支持规则与提示词；尚未完成独立整图调色实测。记录实际工具、输入方式、目标后期、输出观察和用户反馈后再更新验证范围。
-
-## 已认可应用
-[夜景橱窗冷白透粉妆](styles/night-storefront-porcelain-rose.md)：2026-11-04 一次纯文生图成片获“不错，通过”确认。验证的是文字生成的妆容与真实夜景调色组合，不是对已有图片执行独立后期；不扩大为所有逆光或背景方案均已通过。

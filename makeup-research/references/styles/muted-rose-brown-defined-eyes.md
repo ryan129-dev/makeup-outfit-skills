@@ -1,7 +1,5 @@
 # 低饱和玫瑰棕清晰眉眼妆
 
-状态：用户认可；2026-11-03 有身份图完整造型 A–D 四宫格验收通过。此前完成无身份图及有身份图只换妆试图；认可范围为本次完整造型结果，不代表跨人物、跨模型稳定性已验证。
-来源：用户提供的四宫格妆容参考，图中文字为“高智妆”。该词仅作来源标签，不表示可从妆容判断智力。未收录人物原图。
 
 ## 目标与共同规律
 
@@ -49,7 +47,7 @@
 
 ### 完整造型提示词用法
 
-以身份图为唯一脸部身份来源，将对应 A–D 妆面段与下列造型段合并；补齐目标背景、构图、照明与后期，不沿用身份照的摄影安排。A–D 是可独立使用的风格选项，选择本次所需版本并只保留对应提示段；原四宫格位置只标识历史样片，不约束输出布局。
+以身份图为唯一脸部身份来源，将对应 A–D 妆面段与下列造型段合并；补齐目标背景、构图、照明与后期，不沿用身份照的摄影安排。A–D 是可独立使用的风格选项，选择本次所需版本并只保留对应提示段。
 
 ```text
 Preserve the reference person's recognizable facial anatomy, characteristic eye shape and spacing, nose, lip shape and facial contour. Change hairstyle arrangement, outfit, accessories, gaze and pose according to the selected variant. Do not copy another model's face or enlarge the eyes. Design the background and lighting for the selected variant.
@@ -120,14 +118,9 @@ Variant D: Emphasize a crisp outward, slightly lifted eyeliner wing and longer s
 Create a photographic head-and-shoulders portrait of a new adult woman with natural facial anatomy and fine skin texture. Use soft neutral frontal light that preserves facial volume and highlight detail, against a quiet neutral background.
 ```
 
-## 检查与后续反馈
+## 检查
 
 - 先检查所选 A/B/C/D 的眼部深度、腮红色调、眼线强度和唇光，避免四版混成同一效果。
 - 保留身份与原有眼型；眼线贴合睑缘，睫毛分束，下眼影不糊成浓重眼袋。
 - 唇颊同色系且有深浅，腮红边界柔和；唇光不溢出到唇外皮肤。
 - 不添加默认银粉细闪，不强制冷白；肤色与曝光保持连贯，皮肤不呈塑料质感。
-- 已试无图四宫格两轮、有身份图只换妆一轮。用户要求整体加强，尤其 B 眼窝层次；加强版保留四版差异。有身份图一轮的 A/B 差异仍偏弱。用户随后指出遗漏配饰、穿搭与眼神，现补入完整造型模式；尚未指定最偏好版本或最终认可。
-
-### 完整造型首轮检查
-
-有身份图四宫格已生成。A 银圈耳环、波浪链珍珠和露肩领口；B 蕾丝细肩带、小耳钉与手靠近唇部；C 低位细框眼镜、侧向越框视线、波点颈巾及灰色马甲；D 金色圆润耳饰、黑色颈带挂脖与抬颏回看均有呈现。人物特征基本连贯；A/D 的贴顺收发仍留较多碎发，B 眼窝深浅仍可继续核验，以上为助手初检意见；用户随后对本轮完整造型四宫格验收通过，不再将这些意见列为阻塞项。生成图作为聊天预览保存，不把人物照片收录进公开仓库。

@@ -1,7 +1,5 @@
 # 珍珠柔光裸桃妆
 
-状态：已试图；象牙白强化版本的无参考生成与固定人物换妆均获用户认可。仅限本次结果，不代表跨人物与跨模型稳定性。
-来源：用户提供的白色褶皱头巾、珍珠耳钉、黑背景肩颈肖像。风格名是便于检索的描述，不代表已知流派或产品。未收录人物原图。
 
 ## 当前执行优先级
 默认生成完整成片：身份图只提供脸部辨识特征，妆容、发型、神态动作、服装配饰、背景、构图、照明与后期由本风格设计。以下有图模板均为重新创作，不是原照局部换妆。仅用户明确限定局部范围或要求修复已认可成片时，另按实际目标填写保留项。
@@ -86,16 +84,7 @@ Create a photographic portrait of a new adult woman, framed from the upper chest
 - 固定人物时并排对比身份图；不得把参考图的眼睛大小、脸型或棕瞳当作妆效迁移。
 - 珍珠耳钉贴合耳垂，发丝与布料遮挡合理；没有凭空添加项链或未观察到的美甲。
 
-## 反馈与修订
-
-初版淡妆与自然肤质描述过强，输出偏暖米色，象牙白特征不明显。连续编辑又放大了皮肤压纹；加重侧光后出现暖亮发顶和明显半脸阴影，用户明确认为不如前版。不能把这些结果当成成功版本。
-
-后续将“象牙白妆容”置于提示词最前，并明确亮乳白、偏中性冷、淡桃红作衬托；柔光同时照顾脸部两侧，不追求重侧影。无图新人物版本得到用户“不错不错”的反馈；随后固定人物版本获用户“可以”并要求推送。两者仍可见少量人工纹理，需要继续改进。
-
-实测使用内置 imagegen；无图版本未传图，固定人物版本仅传用户当轮人物图。未暴露具体模型版本、seed 或采样参数。没有上传人物照片。此修订不覆盖已有冷白透粉闪光妆。
-
-
-## 已验证变体：象牙白妆容优先
+## 可选变体：象牙白妆容优先
 
 识别“象牙白妆容”“乳白透肤”“象牙白底妆”等意图时，使用本变体，而非把它解释为普通暖裸妆。先写核心底色，再写次要妆色与纹理。此变体不需要银色闪片。
 
@@ -117,7 +106,7 @@ Create a new complete beauty portrait using the supplied person only as the faci
 Create one photographic beauty portrait of a new adult woman wearing visibly IVORY-WHITE MAKEUP: luminous pale neutral-cool ivory porcelain foundation across face, neck, shoulders and upper chest. The complexion reads as bright milky ivory, not golden, beige, tan or bronze. Preserve subtle tonal detail. A faint translucent peach-pink blush beneath the ivory base, pale peach-beige eyelids, fine extended soft-black eyeliner, separated lashes, soft gray-brown brows and moist nude rose-peach lips. Selective continuous pearl-like skin highlights; no glitter particles. Very fine unobtrusive skin texture with smooth tonal transitions, no etched or repeated pattern. Gentle three-quarter turn and relaxed gaze at camera, dark loosely gathered hair, small pearl studs and ivory pleated off-shoulder fabric. Vertical 3:4 upper-body composition against a deep quiet background. Broad neutral-white soft upper-left light and gentle fill keep both sides luminous with delicate facial modeling. Face dominant, accessories subordinate. No warm yellow cast, harsh half-face shadow, body reshaping, waxy skin, overexposure, text or watermark.
 ```
 
-珍珠耳钉与白布料是本风格的完整造型方案，有图与无图均可采用；不自动带入身份照原首饰衣服。验收必须看象牙白是否足够明显、是否白底透粉、是否出现脸颈手色差，以及纹理是否自然；成功生成一次不等于自动触发能力已经测试。
+珍珠耳钉与白布料是本风格的完整造型方案，有图与无图均可采用；不自动带入身份照原首饰衣服。验收必须看象牙白是否足够明显、是否白底透粉、是否出现脸颈手色差，以及纹理是否自然；
 
 
 ## 整体造型分析
@@ -125,8 +114,4 @@ Create one photographic beauty portrait of a new adult woman wearing visibly IVO
 
 
 ## 完整风格迁移的优先说明
-此前“保留发型、动作、首饰”的提示词仅用于局部换妆试验，不适用于完整造型复现。用户要求整体风格时，按 [重新拆解的眼神、手势、发型与首饰](../style-direction.md) 执行，保留脸部身份，替换目标造型；不要沿用旧试妆提示词中的冻结条件。
-
-
-## 最新反馈：整体造型与妆面强度
-完整造型迁移后再加强妆面的版本已获用户“满意”确认。优先读取 [已认可版本与妆面加强片段](../style-direction.md)；不要沿用早期偏弱妆面，也不要把已接受的姿势重新改坏。对照展示不作为固定流程要求。
+局部换妆保留非目标内容。用户要求整体风格时，按 [重新拆解的眼神、手势、发型与首饰](../style-direction.md) 执行，保留脸部身份，替换目标造型；不要沿用旧试妆提示词中的冻结条件。

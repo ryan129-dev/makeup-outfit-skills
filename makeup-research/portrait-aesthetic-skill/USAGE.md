@@ -8,7 +8,7 @@
 - Codex：通常为 `~/.codex/skills/portrait-aesthetic-skill/`。
 - Claude Code：可放在项目的 `.claude/skills/portrait-aesthetic-skill/`，或个人的 `~/.claude/skills/portrait-aesthetic-skill/`。
 
-以上为常见本地目录约定，实际以你正在使用的客户端配置为准。本包未自动安装到本机技能目录。已完成一次固定人物生成与一次妆面加强编辑，最终效果获用户认可。
+以上为常见本地目录约定，实际以你正在使用的客户端配置为准。
 
 ## 直接使用
 在支持技能的环境中按名称调用，或直接让助手读取 `SKILL.md`：
@@ -21,12 +21,11 @@
 
 ## 文件地图
 - `SKILL.md`：触发范围、核心判断与工作流。
-- `references/visual-analysis.md`：本次原图观察、推断边界和可迁移规律。
+- `references/visual-analysis.md`：视觉特征和可迁移规律。
 - `references/photography-decisions.md`：身份、光线、妆容、手部、材质与构图的具体决策。
 - `references/prompt-template.md`：参数卡、正向与负面模板、模型参数边界。
 - `references/examples.md`：三个跨人物/场景示例及局部修复示例。
-- `references/quality-check.md`：检查标准、修复优先级和验收记录。
+- `references/quality-check.md`：检查标准与修复优先级。
 
-验证范围：本包可检查结构、引用与内容覆盖；通用示例仍为未生成提示词；冷白透粉配方已在本次指定人物的一次编辑中获用户认可，跨人物与跨模型效果尚未验证。
 
-- `references/porcelain-rose-flash.md`：已认可的冷白透粉闪光妆配方与编辑模板。
+- `references/porcelain-rose-flash.md`：冷白透粉闪光妆配方与编辑模板。
