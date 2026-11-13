@@ -1,6 +1,6 @@
 # 案例索引
 
-按目标查阅相关案例；适用条件、来源和验证状态以各案例正文为准。通用判断方法见[视觉语言](../methods/visual-language.md)、[整体造型](../methods/whole-look-review.md)和[后期调色](../methods/post-production.md)。
+按目标查阅相关案例；适用条件、来源和验证状态以各案例正文为准。未指定具体风格时，不把案例的强度和装饰当作起点。通用判断方法见[视觉语言](../methods/visual-language.md)、[整体造型](../methods/whole-look-review.md)和[后期调色](../methods/post-production.md)。
 
 ## 妆容与造型
 
