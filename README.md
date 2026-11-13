@@ -1,46 +1,64 @@
-# 妆容与穿搭研究 Skills
+# 妆容、穿搭与视觉设计 Skills
 
-用于研究参考图、提炼可迁移配方、固定人物生成或编辑，并检查实际结果。
+三个专业入口按任务调用，交付图片、提示词、分析或建议。共用方法、学习流程和具体案例集中放在 `shared/`。
 
-根据妆效意图识别：在人物妆容、写真或修图语境下，提到冷白皮、冷白透粉、白里透红、布灵布灵、bling bling、珠光眼妆或眼周细闪等效果时使用妆容 Skill。Skill 主动分析上传图片：身份参考用于为本人设计，风格参考用于提炼并融入指定视觉特点；同一张图可兼具两种用途。默认主导妆容、发型、神态动作、服装配饰、场景、构图、光线与后期，无身份图时设计新成年人物，不设固定默认妆容。泛泛的人像生成请求不触发本 Skill；珠宝、服装等对象的闪光描述也不触发妆容流程。
-
-## 目录
+## 目录地图
 
 ```text
-makeup-research/
-  SKILL.md
-  portrait-aesthetic-skill/
-    SKILL.md
-    references/
-outfit-research/
-  SKILL.md
-visual-style-research/
-  SKILL.md
+makeup-research/                  妆容、写真造型与人像修图
+├── SKILL.md                     适用范围、判断要求与资源入口
+└── references/                  妆容专用方法：人物适配、人像修图
+outfit-research/                  穿搭、配饰与视觉换装
+├── SKILL.md                     适用范围、专业取舍与资源入口
+└── references/                  穿搭专用方法：搭配、替换与结构
+visual-style-research/            摄影、插画等作品的视觉设计
+└── SKILL.md                     画风、构图、配色、光影与材质判断
+shared/                          三个 Skill 共用的知识与资源
+├── methods/                     可迁移方法：任务判断、视觉关系、提示词、评价及造型光色
+├── workflows/                   参考学习、探索与知识更新
+├── cases/                       具体作品的观察、配方、来源与验证状态
+│   ├── index.md                 案例总索引
+│   ├── makeup/                  妆容及完整造型案例
+│   │   └── porcelain-rose-flash/ 冷白透粉的观察、配方与迁移示例
+│   ├── portraits/               人像摄影案例
+│   │   └── truejpeg/            True JPEG 来源的观察与文字方案
+│   └── illustration/            插画与跨画风探索案例
+└── assets/                      案例对应的图片文件
+    └── rose-pink-velvet-closeup/ 玫粉近景的版本与身份对照图
+work/                            本地临时工作，不入库
+outputs/                         本地生成结果，按需创建，不入库
 ```
 
-- [妆容研究](makeup-research/SKILL.md)：以妆容为核心的完整人像设计，保留本人辨识度；仅明确限定时局部换妆。
-- [冷白透粉闪光妆案例](makeup-research/portrait-aesthetic-skill/SKILL.md)：完整摄影方法与妆面配方。
-- [穿搭研究](outfit-research/SKILL.md)：版型、配色、材质、配饰与换装检查。
-- [视觉风格研究](visual-style-research/SKILL.md)：研究和应用人物、场景、静物、插画、海报等视觉方向。
-- [视觉风格库](makeup-research/references/styles/illustrated-portrait-styles.md)：共享的视觉风格与画面设计参考。
+## 从哪里进入
 
-## 使用
+|任务|入口|
+|---|---|
+|妆容、以妆容为核心的写真、人像修图|[makeup-research](makeup-research/SKILL.md)|
+|服装搭配、配饰、视觉换装|[outfit-research](outfit-research/SKILL.md)|
+|视觉风格、构图、色彩、光影与材质|[visual-style-research](visual-style-research/SKILL.md)|
+|查阅具体作品及验证状态|[案例索引](shared/cases/index.md)|
+|研究参考图、吸收反馈、更新知识|[参考学习](shared/workflows/reference-learning.md)|
 
-默认生成独立单张；多张分别交付，用户要求时制作宫格。
+## 方法入口
 
-让助手读取所需目录的 `SKILL.md`，按需提供参考图和本轮目标。安装时将三个顶层目录一起复制到所用客户端的技能目录并保持相邻，以便穿搭与视觉风格 Skill 读取妆容目录中的共享风格卡。妆容目录内的案例通过相对路径按需读取；若要独立调用冷白透粉案例，也可将其单独复制到技能目录。
+|需要解决的问题|方法|
+|---|---|
+|确定交付、改动范围与参考角色|[任务判断](shared/methods/task-framing.md)|
+|解释或设计构图、配色、材质与主次|[视觉关系与取舍](shared/methods/visual-reasoning.md)|
+|将目标转成可执行描述|[视觉规格与提示词](shared/methods/prompt-design.md)|
+|评价、比较与定位失败原因|[结果判断](shared/methods/result-review.md)|
 
+## 文件归属
 
-## 持续学习参考图
+- `SKILL.md`：触发范围、判断依据、执行要求及必要入口。
+- 各 Skill 的 `references/`：只服务该专业的方法；有内容时再建立目录。
+- `shared/methods/`：跨专业适用的关系、条件、调整方法与判断标准。
+- `shared/workflows/`：研究、验证和写回知识的操作要求。
+- `shared/cases/`：具体案例及其来源、适用范围和证据状态；案例内的参数不自动成为全局默认。
+- `shared/assets/`：已纳入案例的图像。临时图与探索产物放 `work/` 或 `outputs/`。
 
-收录精美的风格、妆容、穿搭及配饰：观察参考图，提炼色彩、尺度、留白、材质和反光的关系，再保存独立风格卡。用户弃用的案例不作为正向配方。使用时结合人物、用户要求和画面选择并调整合适的风格；没有参考图或没有指定风格时，自动设计精美协调的完整造型，不固定套用同一套配方。用户明确限定局部或指定风格时，遵循当轮要求。
+## 使用与安装
 
-人物画风与妆容穿搭分开选择：真人摄影、插画和 3D 等表现方式可使用各自适配的造型；用户指定画风时按要求应用。真人写真不会仅因为风格库包含插画而自动变成插画。
+直接使用本仓库时，让助手读取对应的 `SKILL.md`。安装到技能目录时，将 `makeup-research/`、`outfit-research/`、`visual-style-research/` 和 `shared/` 一起复制，保持四者相邻；三个专业入口仍使用原名称。`shared/` 不设 `SKILL.md`，仅由专业入口按需读取。
 
-- [探索与吸收：参考图学习、提炼和写回](makeup-research/references/evolution-brain.md)
-
-例如：“研究这张妆容并沉淀成新配方”“提炼这对耳环与领口的关系”“根据这次反馈更新刚才的风格”。只要求分析时不自动生成图片或修改仓库；要求沉淀时按对应流程更新文件。
-
-- [低饱和玫瑰棕四版完整造型](makeup-research/references/styles/muted-rose-brown-defined-eyes.md)：A 银饰露肩、B 蕾丝深眼窝、C 低位眼镜与波点颈巾、D 金饰挂脖。
-
-- [玫瑰粉爱心与冰蓝银星完整造型](makeup-research/references/styles/pink-hearts-icy-blue-stars.md)：记录妆面、发型、配饰、服装、光线与迁移边界。
+冷白透粉已归为共享案例，通过妆容 Skill 调用，不再作为嵌套 Skill 独立安装。安装目录中若已有旧版 `portrait-aesthetic-skill`，迁移时应移除旧入口，避免重复触发。
