@@ -11,6 +11,7 @@ description: 处理女装、男装、内衣、配饰、人物造型和视觉换�
 
 - 搭配用服装松量、长度、层次和色块组织比例，不靠改体型代替换装。
 - 未指定其他用途时，按[搭配与结构](references/outfit-design.md)的观看目标设计。
+- 男装只是穿搭里的支持，权重不高。用户要男装时，气质放在结构前面：重心在一只脚，视线有方向，领口干净，手套戴上或拿稳。这些不单列进验收。
 - 商品还原保留指定单品的结构、颜色与细节；自由搭配可替换元素，保留对目标有效的关系。
 - 单品和局部问题只处理相关部分；完整造型才综合妆发、衣饰、动作与画面。
 - 图片能支持视觉适配判断；实穿合体需要尺寸与活动条件，品牌、成分和价格不能从外观确定。
@@ -25,7 +26,7 @@ description: 处理女装、男装、内衣、配饰、人物造型和视觉换�
 |写提示词或执行换装|[视觉规格与提示词](../shared/methods/prompt-design.md)|
 |比较方案、检查生成结果或修改反馈|[结果判断](../shared/methods/result-review.md)|
 |穿搭、妆容或光影好不好看|[好看的量化](../shared/methods/look-quality.md)|
-|身材、细节图、中间人左右穿搭|[人像](../shared/methods/portrait-figure.md)|
+|身材、三视图、中间人左右穿搭|[人像](../shared/methods/portrait-figure.md)|
 |学习、探索或更新知识|[参考学习](../shared/workflows/reference-learning.md)|
 
 具体搭配按需查阅[案例索引](../shared/cases/index.md)。
