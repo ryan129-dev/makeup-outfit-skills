@@ -16,7 +16,7 @@
 
 ## 摄影与插画
 
-- **年轻人物妆造与插画探索**：[风格卡](illustration/youth-beauty-editorial-exploration.md)包含钴蓝短发、红色咖啡馆插画与蓝黄街景写真等方向；这三张获用户认可，重复生成稳定性待验证。
+- **年轻人物妆造与插画探索**：[风格卡](illustration/youth-beauty-editorial-exploration.md)包含钴蓝短发、红色咖啡馆插画与蓝黄街景写真等方向。
 - **暗背景象牙白时装写真**：[摄影风格卡](portraits/low-key-ivory-fashion-portrait.md)以深背景、浅色服装及方向性冷中性光组织画面，适合暗调肖像与时装海报。
 - **人物神态、动作与画面**：[风格卡](portraits/truejpeg/truejpeg-expression-pose.md)包含操作时抬眼、侧身回望和轻倾头闭唇微笑，以及动作与构图的关系。
 - **城市人物造型与神态**：[风格卡](portraits/truejpeg/truejpeg-makeup-outfits.md)包含红色亮面造型、陶棕银饰与工业机能装的人物妆容、穿搭和动作。
@@ -24,11 +24,11 @@
 - **人像完整画面**：[风格卡](portraits/truejpeg/truejpeg-portrait-complete-scenes.md)包含湿发冷蓝近景、夜间车厢、银色时装、暗路蹲姿与站台回望，保留神态、动作、构图与光色的组合。
 - **风雨海面人物时装照**：[风格卡](portraits/truejpeg/truejpeg-portraits-close.md)记录扶栏动作、风吹发束、交叠白衣与暗海天的关系。
 - **环境人像的动作与空间**：[风格卡](portraits/truejpeg/truejpeg-portraits-environment.md)记录甲板、工业道路与复古沙发中人物造型、姿态和空间的关系。
-- **用户指定的人像参考**：网站显示编号可能随更新变化，卡片也记录稳定的作品链接，均尚未生成验证。
+- **人像参考**：网站显示编号可能随更新变化，卡片记录稳定的作品链接。
   - [夜景露台侧脸、草地礼服、镜像自拍与装饰图案](portraits/truejpeg/truejpeg-selected-003-117.md)：以人物动作、衣物轮廓和现场光共同组织画面。
   - [低头近景、夜街回望与露台眼镜造型](portraits/truejpeg/truejpeg-selected-122-148.md)：关注视线方向、头肩转向及前景与环境的亮度关系。
   - [眨眼微笑、浅椅透视与暗室低机位](portraits/truejpeg/truejpeg-selected-149-247.md)：关注具体神态、人物姿态和空间透视。
-- **人像文生图配方**：[画面语言与文字规格](portraits/truejpeg/truejpeg-text-to-image.md)提供露台侧脸、夜街回望、镜中自拍、眨眼抓拍等方向的完整组合；用户要求使用这些已吸收的人像风格时按需读取。
+- **人像文生图配方**：[画面语言与文字规格](portraits/truejpeg/truejpeg-text-to-image.md)提供露台侧脸、夜街回望、镜中自拍、眨眼抓拍等方向的完整组合。需要这些人像方向时按需读取。
 
 ## 已弃用
 

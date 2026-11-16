@@ -16,7 +16,7 @@ visual-style-research/            摄影、插画等作品的视觉设计
 shared/                          三个 Skill 共用的知识与资源
 ├── methods/                     可迁移方法：任务判断、视觉关系、提示词、评价及造型光色
 ├── workflows/                   参考学习、探索与知识更新
-├── cases/                       具体作品的观察、配方、来源与验证状态
+├── cases/                       可复用的画面关系
 │   ├── index.md                 案例总索引
 │   ├── makeup/                  妆容及完整造型案例
 │   │   └── porcelain-rose-flash/ 冷白透粉的观察、配方与迁移示例
@@ -35,6 +35,7 @@ outputs/                         本地生成结果，按需创建，不入库
 |---|---|
 |妆容、以妆容为核心的写真、人像修图|[makeup-research](makeup-research/SKILL.md)|
 |服装搭配、配饰、视觉换装|[outfit-research](outfit-research/SKILL.md)|
+|OOTD 男女装完整三栏拆解|[OOTD 路线](outfit-research/references/ootd.md)|
 |视觉风格、构图、色彩、光影与材质|[visual-style-research](visual-style-research/SKILL.md)|
 |查阅具体作品及验证状态|[案例索引](shared/cases/index.md)|
 |研究参考图、吸收反馈、更新知识|[参考学习](shared/workflows/reference-learning.md)|
@@ -56,7 +57,7 @@ outputs/                         本地生成结果，按需创建，不入库
 - 各 Skill 的 `references/`：只服务该专业的方法；有内容时再建立目录。
 - `shared/methods/`：跨专业适用的关系、条件、调整方法与判断标准。
 - `shared/workflows/`：研究、验证和写回知识的操作要求。
-- `shared/cases/`：具体案例及其来源、适用范围和证据状态；案例内的参数不自动成为全局默认。
+- `shared/cases/`：可复用的画面关系。只写当前规则，不写会话记录、验收经过或修改理由。案例内的参数不自动成为全局默认。
 - `shared/assets/`：已纳入案例的图像。临时图与探索产物放 `work/` 或 `outputs/`。
 
 ## 使用与安装
