@@ -1,6 +1,6 @@
 ---
 name: outfit-research
-description: 处理服装搭配、配饰、人物造型和视觉换装问题，包括设计、提示词、分析比较、搭配建议与结构检查。订单、库存、价格查询等非造型任务不触发。
+description: 处理女装、男装、内衣、配饰、人物造型和视觉换装问题，包括设计、提示词、分析比较、搭配建议与结构检查。订单、库存、价格查询等非造型任务不触发。
 ---
 
 # 穿搭与配饰
@@ -24,6 +24,8 @@ description: 处理服装搭配、配饰、人物造型和视觉换装问题，�
 |插画、摄影等表现形式的变化|[视觉语言](../shared/methods/visual-language.md)|
 |写提示词或执行换装|[视觉规格与提示词](../shared/methods/prompt-design.md)|
 |比较方案、检查生成结果或修改反馈|[结果判断](../shared/methods/result-review.md)|
+|穿搭、妆容或光影好不好看|[好看的量化](../shared/methods/look-quality.md)|
+|身材、细节图、中间人左右穿搭|[人像](../shared/methods/portrait-figure.md)|
 |学习、探索或更新知识|[参考学习](../shared/workflows/reference-learning.md)|
 
 具体搭配按需查阅[案例索引](../shared/cases/index.md)。

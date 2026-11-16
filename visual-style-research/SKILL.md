@@ -23,6 +23,8 @@ description: 处理摄影、插画、海报、场景、静物和人物作品中�
 |光线与成片色调|[光影与调色](../shared/methods/post-production.md)|
 |写提示词或执行生成与编辑|[视觉规格与提示词](../shared/methods/prompt-design.md)|
 |分析、比较或修正结果|[结果判断](../shared/methods/result-review.md)|
+|妆容、穿搭或光影好不好看|[好看的量化](../shared/methods/look-quality.md)|
+|身材、细节图、中间人左右穿搭|[人像](../shared/methods/portrait-figure.md)|
 |学习、探索或更新知识|[参考学习](../shared/workflows/reference-learning.md)|
 
 具体作品见[案例索引](../shared/cases/index.md)；按已积累人像方向写提示词时，可参考[画面语言示例](../shared/cases/portraits/truejpeg/truejpeg-text-to-image.md)。

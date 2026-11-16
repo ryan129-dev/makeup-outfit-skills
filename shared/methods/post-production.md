@@ -33,6 +33,6 @@
 
 ## 验证
 
-缩小看整体色彩、主体分离和亮暗层级，放大看关键材质、颜色与高光细节。有原图的调色逐项对照结构和非目标改变；两次不同人物的文生图不能用作严格的调色前后对比。
+缩小看整体色彩、主体分离和亮暗层级，放大看关键材质、颜色与高光细节。人物成片的光影分数按[好看的量化](look-quality.md)。有原图的调色逐项对照结构和非目标改变；两次不同人物的文生图不能用作严格的调色前后对比。
 
 方法来源保留供追溯：[Adobe 人像精修](https://github.com/openai/plugins/blob/main/plugins/adobe/skills/adobe-retouch-portraits/SKILL.md)、[Photo Cull Retouch](https://github.com/dudachun/photo-cull-retouch/blob/main/SKILL.md)、[Color Grade AI](https://github.com/isaacrowntree/color-grade-ai/blob/main/SKILL.md)、[Photoshop colour-retouch](https://github.com/Immersive-Media-Technologies/photoshop-mcp-imt/blob/main/skills/ps/references/color-retouch.md)。具体软件参数不作为本方法的通用设置。

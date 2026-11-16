@@ -47,6 +47,8 @@ outputs/                         本地生成结果，按需创建，不入库
 |解释或设计构图、配色、材质与主次|[视觉关系与取舍](shared/methods/visual-reasoning.md)|
 |将目标转成可执行描述|[视觉规格与提示词](shared/methods/prompt-design.md)|
 |评价、比较与定位失败原因|[结果判断](shared/methods/result-review.md)|
+|妆容、穿搭、光影好不好看|[好看的量化](shared/methods/look-quality.md)|
+|身材、细节图、人与穿搭同图|[人像](shared/methods/portrait-figure.md)|
 
 ## 文件归属
 
