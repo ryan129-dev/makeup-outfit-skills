@@ -62,6 +62,10 @@ outputs/                         本地生成结果，按需创建，不入库
 
 ## 使用与安装
 
-直接使用本仓库时，让助手读取对应的 `SKILL.md`。安装到技能目录时，将 `makeup-research/`、`outfit-research/`、`visual-style-research/` 和 `shared/` 一起复制，保持四者相邻；三个专业入口仍使用原名称。`shared/` 不设 `SKILL.md`，仅由专业入口按需读取。
+直接使用本仓库时，让助手读取对应的 `SKILL.md`。安装到技能目录时，将 `makeup-research/`、`outfit-research/`、`visual-style-research/` 和 `shared/` 一起复制，保持四者相邻；三个专业入口仍使用原名称。各目录中的 `COPYRIGHT.txt` 随目录一起复制，不要删除。`shared/` 不设 `SKILL.md`，仅由专业入口按需读取。
 
 冷白透粉已归为共享案例，通过妆容 Skill 调用，不再作为嵌套 Skill 独立安装。安装目录中若已有旧版 `portrait-aesthetic-skill`，迁移时应移除旧入口，避免重复触发。
+
+## 许可
+
+版权归 ryan129-dev 所有，按 [MIT License](LICENSE) 授权。可以复制、修改、商用和再发布。再发布时保留版权声明和许可全文。`COPYRIGHT.txt` 不参与妆容、穿搭或视觉判断。
