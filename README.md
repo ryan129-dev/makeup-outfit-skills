@@ -1,17 +1,20 @@
-# 人像妆容与穿搭 Skills
+# 人像创作、参考图化妆与穿搭 Skills
 
-两个独立维度：人像与妆容、穿搭。交付图片、提示词、分析或建议。共用方法、学习流程和具体案例集中放在 `shared/`。
+三个独立维度：人像创作（以文生图为主）、参考图化妆（图生图）、穿搭。交付图片、提示词、分析或建议。共用方法、学习流程和具体案例集中放在 `shared/`。
 
 ## 目录地图
 
 ```text
-portrait-makeup/                  人像、妆容与人物修图
+portrait-creation/                文生图人像与完整造型
 ├── SKILL.md                     适用范围、判断要求与资源入口
-└── references/                  妆容专用方法：人物适配、人像修图
+└── references/                  生活人像、居家空间与人物动作
+makeup-edit/                      参考图上妆与局部修饰
+├── SKILL.md                     原图编辑边界与妆容设计
+└── references/                  人物妆容适配、人像修图
 outfit-research/                  穿搭、配饰与视觉换装
 ├── SKILL.md                     适用范围、专业取舍与资源入口
 └── references/                  穿搭专用方法：搭配、替换与结构
-shared/                          两个 Skill 共用的知识与资源
+shared/                          三个 Skill 共用的知识与资源
 ├── methods/                     可迁移方法：任务判断、视觉关系、提示词、评价及整体造型
 ├── workflows/                   参考学习、探索与知识更新
 ├── cases/                       可复用的画面关系
@@ -31,7 +34,9 @@ outputs/                         本地生成结果，按需创建，不入库
 
 |任务|入口|
 |---|---|
-|人物生成、妆容与人像修图|[portrait-makeup](portrait-makeup/SKILL.md)|
+|文生图人物、新写真与完整造型|[portrait-creation](portrait-creation/SKILL.md)|
+|给参考图化妆、换妆与局部修饰|[makeup-edit](makeup-edit/SKILL.md)|
+|居家写真、生活场景人像与系列造型|[生活场景人像](portrait-creation/references/lifestyle-portrait.md)|
 |服装搭配、配饰、视觉换装|[outfit-research](outfit-research/SKILL.md)|
 |OOTD 男女装完整三栏拆解|[OOTD 路线](outfit-research/references/ootd.md)|
 |查阅具体作品及验证状态|[案例索引](shared/cases/index.md)|
@@ -59,7 +64,7 @@ outputs/                         本地生成结果，按需创建，不入库
 
 ## 使用与安装
 
-直接使用本仓库时，让助手读取对应的 `SKILL.md`。安装到技能目录时，将 `portrait-makeup/`、`outfit-research/` 和 `shared/` 一起复制，保持三者相邻。旧版 `makeup-research` 入口替换为 `portrait-makeup`；迁移时移除旧版 `visual-style-research` 和 `lighting-post-production` 安装入口，避免继续触发已删除的能力。本仓库之外的已安装副本不会自动同步。各目录中的 `COPYRIGHT.txt` 随目录一起复制。`shared/` 不设 `SKILL.md`，仅由两个专业入口按需读取。
+直接使用本仓库时，让助手读取对应的 `SKILL.md`。安装到技能目录时，将 `portrait-creation/`、`makeup-edit/`、`outfit-research/` 和 `shared/` 一起复制，保持四者相邻。移除旧版 `portrait-makeup`、`makeup-research`、`visual-style-research` 和 `lighting-post-production` 安装入口，避免重复触发。仓库之外的已安装副本不会自动同步。各目录中的 `COPYRIGHT.txt` 随目录复制。`shared/` 不设 `SKILL.md`，仅由三个专业入口按需读取。
 
 冷白透粉已归为共享案例，通过妆容 Skill 调用，不再作为嵌套 Skill 独立安装。安装目录中若已有旧版 `portrait-aesthetic-skill`，迁移时应移除旧入口，避免重复触发。
 

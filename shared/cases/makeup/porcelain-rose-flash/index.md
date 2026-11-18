@@ -9,4 +9,4 @@
 |柔雾底妆、连鼻腮红与黑底近景|[玫粉近景变体](rose-pink-velvet-closeup.md)|
 |换人物、光线与场景后的设计推演|[迁移示例](examples.md)|
 
-人物适配见[妆容方法](../../../../portrait-makeup/references/adaptive-makeup-design.md)，执行与交付由专业入口决定。
+人物适配见[妆容方法](../../../../makeup-edit/references/adaptive-makeup-design.md)，执行与交付由专业入口决定。
